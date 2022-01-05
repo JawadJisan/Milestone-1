@@ -1,9 +1,9 @@
 body{
     margin: 0;
     line-height: 1.5;
-    background-color: honeydew;
+    background-color: rgba(244, 228, 245, 0.253);
     font-family: 'Lato', sans-serif;
-font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 
 }
 .first-section{
@@ -55,13 +55,12 @@ p{
     display: flex;
 }
 .code, .dream, .thinking{
-    width: 30%;
-    display: inline;
     padding-bottom: 100px;
     padding-left: 10px;
     padding-right: 5px;
 }
 .code{
+
     background-color: rgb(209, 219, 248) ;
     border-radius: 20px;
     margin-left: 5%;
@@ -76,4 +75,47 @@ p{
     background-color: rgba(245, 76, 112, 0.267) ;
     border-radius: 20px;
     margin-right: 5%;
+}
+.about{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.developre-info{
+    width:150%;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-top: 15px;
+    padding-left: 50px;
+}
+
+.coding-img{
+    width: 50%;
+    margin-left: 250px;
+}
+.about-flex{
+    display: flex;
+}
+.agency-info{
+    margin-left: 50px;
+}
+.agency-img{
+    width: 50%;
+}
+.my-agency{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.932);
+    margin: 0px;
+    padding: 15px;
+    text-align: center;
+}
+footer h1{
+    color: honeydew;
+}
+footer p{
+    color: azure;
 }
