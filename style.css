@@ -46,10 +46,34 @@ p{
     margin-top: 70px;
 }
 .mission img{
-    width: 50%;
-    height: 70%;
-    margin: 10px;
+    width: 30%;
+    height: 50%;
+    margin-left: 10px;
+    margin-top: 0px;
 }
 .mission-flex{
     display: flex;
+}
+.code, .dream, .thinking{
+    width: 30%;
+    display: inline;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.code{
+    background-color: rgb(209, 219, 248) ;
+    border-radius: 20px;
+    margin-left: 5%;
+}
+.dream{
+    background-color: rgba(20, 231, 203, 0.26) ;
+    border-radius: 20px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+.thinking{
+    background-color: rgba(245, 76, 112, 0.267) ;
+    border-radius: 20px;
+    margin-right: 5%;
 }
