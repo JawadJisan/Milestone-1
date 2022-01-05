@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+
+}
+.first-section{
+    display: flex;
+}
+.first-section-half-width{
+    width: 50%;
+}
+.first-section img{
+    width: 50%;
+}
