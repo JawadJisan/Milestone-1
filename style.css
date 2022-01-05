@@ -1,13 +1,55 @@
 body{
     margin: 0;
+    line-height: 1.5;
+    background-color: honeydew;
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
 
 }
 .first-section{
     display: flex;
+    margin-top: 40px;
+    margin-left: 100px;
 }
 .first-section-half-width{
     width: 50%;
 }
 .first-section img{
+    width: 60%;
+    margin-left: 120px;
+}
+a{
+    color: wheat;
+    background-color: rgb(253, 81, 13);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.top-margin{
+    margin-top: 80px;
+    
+}
+span{
+    color: crimson;
+}
+.heading{
+    box-shadow: 0px 0px 10px  rgb(255, 255, 255);
+    border-left: 5px solid orange;
+    border-radius: 5px;
+    font-size: 45px;
+}
+p{
+    font-size: 20px;
+}
+.mission22{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 70px;
+}
+.mission img{
     width: 50%;
+    height: 70%;
+    margin: 10px;
+}
+.mission-flex{
+    display: flex;
 }
